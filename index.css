@@ -1,0 +1,150 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+
+    body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),;
+    background-image: url(./img/wp7994949-login-page-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+    }
+
+    .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    box-sizing: border-box;
+    
+    }
+
+    .home{
+        color:rgb(235, 45, 76) ;
+    }
+
+    .content p{
+        font-style: italic;
+        font-weight: 900;
+        color:rgb(255, 255, 255);
+    }
+
+    .logo{
+    font-size: 130px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    }
+
+    .menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    box-sizing: border-box;
+    }
+
+    ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    }
+
+    ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    box-sizing: border-box;
+    }
+
+    ul li a:hover{
+    color:rgb(235, 45, 76);
+    }
+
+   
+
+    .content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+    }
+
+    .content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    box-sizing: border-box;
+    }
+
+    .content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    }
+
+    .content .cn{
+    width: 160px;
+    height: 40px;
+    background:rgb(255, 0, 43);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    box-sizing: border-box;
+    }
+
+    .content .cn a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    transition: 3s ease;
+    box-sizing: border-box;
+    }
+
+    .cn:hover{
+    background-color:rgb(196, 0, 33) ;
+    box-sizing: border-box;
+    }
+
+    .content span{
+    color:rgb(255, 0, 43);
+    font-size: 50px;
+    box-sizing: border-box;
+    }
+
+    
+
+
+
+
+
+
+
